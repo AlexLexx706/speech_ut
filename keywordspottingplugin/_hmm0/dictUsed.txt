@@ -1,0 +1,34 @@
+!ENTER [] pau
+!EXIT [] pau
+pau [] pau
+а a
+абсолютно a+tc a-tc+p tc-p+s p-s+ax s-ax+lj ax-lj+u lj-u+tc u-tc+t tc-t+n t-n+a n-a
+августа a+v a-v+dc v-dc+g dc-g+u g-u+s u-s+tc s-tc+t tc-t+a t-a
+автомобиль a+f a-f+tc f-tc+t tc-t+ax t-ax+m ax-m+a m-a+dc a-dc+bj dc-bj+i bj-i+lj i-lj
+агентство a+dc a-dc+gj dc-gj+e gj-e+n e-n+tc n-tc+tKs& tc-tKs&+tc tKs&-tc+t tc-t+v t-v+a v-a
+администратора a+dc a-dc+dK& dc-dK&+mj dK&-mj+I mj-I+nj I-nj+i nj-i+s i-s+tc s-tc+t tc-t+r t-r+a r-a+tc a-tc+t tc-t+ax t-ax+r ax-r+a r-a
+администрации a+dc a-dc+dK& dc-dK&+mj dK&-mj+I mj-I+nj I-nj+I nj-I+s I-s+tc s-tc+t tc-t+r t-r+ax r-ax+tc ax-tc+tKs& tc-tKs&+ax tKs&-ax+i ax-i
+адрес a+dc a-dc+dK& dc-dK&+rj dK&-rj+I rj-I+s I-s
+акций a+tc a-tc+k tc-k+tc k-tc+tKs& tc-tKs&+ax tKs&-ax+j ax-j
+александр a+lj a-lj+I lj-I+tc I-tc+k tc-k+s k-s+ax s-ax+n ax-n+dc n-dc+dK& dc-dK&+r dK&-r
+александра a+lj a-lj+I lj-I+tc I-tc+k tc-k+s k-s+ax s-ax+n ax-n+dc n-dc+dK& dc-dK&+r dK&-r+a r-a
+алые a+l a-l+ax l-ax+j ax-j+e j-e
+английских a+n a-n+dc n-dc+g dc-g+lj g-lj+i lj-i+j i-j+s j-s+tc s-tc+kj tc-kj+I kj-I+x I-x
+англичанин a+n a-n+dc n-dc+g dc-g+lj g-lj+i lj-i+tc i-tc+tSj tc-tSj+a tSj-a+nj a-nj+I nj-I+n I-n
+андрей a+n a-n+dc n-dc+dK& dc-dK&+rj dK&-rj+I rj-I+j I-j
+антене a+nj a-nj+tc nj-tc+tj tc-tj+I tj-I+nj I-nj+e nj-e
+армии a+r a-r+mj r-mj+I mj-I+i I-i
+армию a+r a-r+mj r-mj+I mj-I+u I-u
+арчер a+r a-r+tc r-tc+tSj tc-tSj+I tSj-I+r I-r
+ах a+x a-x
+б dc+b dc-b+ax b-ax
+базе dc+b dc-b+a b-a+zj a-zj+e zj-e
+базы dc+b dc-b+ax b-ax+z ax-z+ix z-ix
+банк dc+b dc-b+a b-a+n a-n+tc n-tc+k tc-k
+банка dc+b dc-b+ax b-ax+n ax-n+tc n-tc+k tc-k+a k-a
+банки dc+b dc-b+ax b-ax+n ax-n+tc n-tc+kj tc-kj+i kj-i
+банков dc+b dc-b+ax b-ax+n ax-n+tc n-tc+k tc-k+ax k-ax+f ax-f
+барабанов dc+b dc-b+ax b-ax+r ax-r+a r-a+dc a-dc+b dc-b+a b-a+n a-n+ax n-ax+f ax-f
+бежали dc+bj dc-bj+I bj-I+Z I-Z+ax Z-ax+lj ax-lj+i lj-i
+без dc+bj dc-bj+e bj-e+s e-s
+мама m+a m-a+m a-m+a m-a

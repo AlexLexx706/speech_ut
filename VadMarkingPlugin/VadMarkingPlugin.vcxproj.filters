@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{13fe2801-44a9-4c40-a07b-203e99d81cf9}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{df906d39-7883-4c94-b745-ec92b4bad8bd}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="settingsdialog">
+      <UniqueIdentifier>{f091fca0-f9c5-4c82-a91f-9f9a02f64ecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models">
+      <UniqueIdentifier>{a662fd0c-6201-4beb-a723-1800835aa53f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models\noices&amp;voices">
+      <UniqueIdentifier>{0f1f3df3-0e78-452a-9ff4-d84e628d5c95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models\dcModels">
+      <UniqueIdentifier>{e7ad9d27-1f7f-4be0-b52c-6323046d1145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vadmarkingplugin">
+      <UniqueIdentifier>{506e80c4-dfbf-4a67-950d-28df8316d147}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Release\moc_vadmarkingplugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vadmarkingplugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_res.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_settingsdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_settingsdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="settingsdialog\settingsdialog.cpp">
+      <Filter>settingsdialog</Filter>
+    </ClCompile>
+    <ClCompile Include="vadmarkingplugin.cpp">
+      <Filter>vadmarkingplugin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="generatedfiles\ui_settingsdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="settingsdialog\img\Button-Add-icon.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="settingsdialog\img\Remove-icon.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="settingsdialog\res.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="settingsdialog\settingsdialog.h">
+      <Filter>settingsdialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="settingsdialog\settingsdialog.ui">
+      <Filter>settingsdialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\pause_mk40000260.mdl">
+      <Filter>models</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\speech40000260.mdl">
+      <Filter>models</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\noices&amp;voices\__glassman40000260.mdl">
+      <Filter>models\noices&amp;voices</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\noices&amp;voices\__iron_w40000260.mdl">
+      <Filter>models\noices&amp;voices</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\noices&amp;voices\__music40000260.mdl">
+      <Filter>models\noices&amp;voices</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\noices&amp;voices\__noise140000260.mdl">
+      <Filter>models\noices&amp;voices</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\noices&amp;voices\__noise240000260.mdl">
+      <Filter>models\noices&amp;voices</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\noices&amp;voices\__noise340000260.mdl">
+      <Filter>models\noices&amp;voices</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\noices&amp;voices\__pause_extreme40000260.mdl">
+      <Filter>models\noices&amp;voices</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\noices&amp;voices\__tone240000260.mdl">
+      <Filter>models\noices&amp;voices</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\noices&amp;voices\__zameni_gudok40000260.mdl">
+      <Filter>models\noices&amp;voices</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\noices&amp;voices\unknown_child40000260.mdl">
+      <Filter>models\noices&amp;voices</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\noices&amp;voices\unknown_f40000260.mdl">
+      <Filter>models\noices&amp;voices</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\noices&amp;voices\unknown_m40000260.mdl">
+      <Filter>models\noices&amp;voices</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\cdModels\pause.gmm">
+      <Filter>models\dcModels</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\cdModels\speech.gmm">
+      <Filter>models\dcModels</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\cdModels\ubm.gmm">
+      <Filter>models\dcModels</Filter>
+    </CustomBuild>
+    <CustomBuild Include="vadmarkingplugin.h">
+      <Filter>vadmarkingplugin</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

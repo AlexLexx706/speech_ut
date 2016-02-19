@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{e288d712-af89-48cb-a00b-ce482422a2bf}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{8a5e40fc-2850-498b-9ea7-b0be08e66e0e}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="basesuplugin">
+      <UniqueIdentifier>{58e5037f-fb2a-4527-b2bd-4566b2dda47f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InternalThread">
+      <UniqueIdentifier>{34574243-32ba-4217-9c75-b7b87a00cff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InternalThread\BatchThread">
+      <UniqueIdentifier>{47ffc4c6-04b6-4e96-a0d5-41859635fa96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InternalThread\pluginsocket">
+      <UniqueIdentifier>{28addf62-8f6e-4dc4-b54c-2bacc5158702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InternalThread\Process">
+      <UniqueIdentifier>{5d40708a-e020-4649-887c-9a7de181f882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Release_dll">
+      <UniqueIdentifier>{216c2539-13f9-483a-ba66-9c96d7b29a6a}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Template">
+      <UniqueIdentifier>{10d037b7-e697-406d-94d8-fc5c0e7945dc}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basesuplugin_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="internalthread\batchthread\batchthread.h">
+      <Filter>InternalThread\BatchThread</Filter>
+    </ClInclude>
+    <ClInclude Include="internalthread\process\process.h">
+      <Filter>InternalThread\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="plugincommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\qrc_res.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="internalthread\batchthread\batchthread.cpp">
+      <Filter>InternalThread\BatchThread</Filter>
+    </ClCompile>
+    <ClCompile Include="internalthread\process\process.cpp">
+      <Filter>InternalThread\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_internalthread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_dll\moc_internalthread.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_internalthread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_internalthread.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="internalthread\internalthread.cpp">
+      <Filter>InternalThread</Filter>
+    </ClCompile>
+    <ClCompile Include="internalthread\pluginsocket\pluginsocket.cpp">
+      <Filter>InternalThread\pluginsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_pluginsocket.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_dll\moc_pluginsocket.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_pluginsocket.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_pluginsocket.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="basesuplugin.cpp">
+      <Filter>basesuplugin</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_basesuplugin.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_dll\moc_basesuplugin.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_basesuplugin.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_basesuplugin.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="Resources\marking.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\marking_by_marking.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\Settings-icon.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\settings.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\Start.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\stop.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\Symbol-Stop.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="internalthread\internalthread.h">
+      <Filter>InternalThread</Filter>
+    </CustomBuild>
+    <CustomBuild Include="internalthread\pluginsocket\pluginsocket.h">
+      <Filter>InternalThread\pluginsocket</Filter>
+    </CustomBuild>
+    <CustomBuild Include="basesuplugin.h">
+      <Filter>basesuplugin</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

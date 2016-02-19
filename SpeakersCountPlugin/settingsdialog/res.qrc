@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="img">
+    <file>img/Button-Add-icon.png</file>
+    <file>img/Remove-icon.png</file>
+  </qresource>
+</RCC>

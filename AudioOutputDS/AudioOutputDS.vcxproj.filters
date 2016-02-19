@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{b3a14121-dbf8-415a-ab90-b446ef5d0ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audiooutputds">
+      <UniqueIdentifier>{acab03ac-9466-476a-b3cf-17d871a663c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audiooutputds\internalautputdevice">
+      <UniqueIdentifier>{93fbad9e-13d4-4704-ab9d-181212bc81a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{dd49d8a6-420d-40d9-a981-0b93cfaae2d3}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{27afd779-bec5-458f-84e2-d1ad84d03cf7}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug_dll">
+      <UniqueIdentifier>{3ec79e28-289d-4a8b-ab22-e6c943740ac3}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_dll">
+      <UniqueIdentifier>{0cbde454-847c-470d-ab38-adfa30b09ac7}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\dxstdafx.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\DXUTsound.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="audiooutputds_global.h">
+      <Filter>audiooutputds</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="common\DXUTsound.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="audiooutputds.cpp">
+      <Filter>audiooutputds</Filter>
+    </ClCompile>
+    <ClCompile Include="internalautputdevice\internalautputdevice.cpp">
+      <Filter>audiooutputds\internalautputdevice</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_audiooutputds.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_internalautputdevice.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_audiooutputds.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_internalautputdevice.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_audiooutputds.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_internalautputdevice.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_dll\moc_audiooutputds.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_dll\moc_internalautputdevice.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="audiooutputds.h">
+      <Filter>audiooutputds</Filter>
+    </CustomBuild>
+    <CustomBuild Include="internalautputdevice\internalautputdevice.h">
+      <Filter>audiooutputds\internalautputdevice</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

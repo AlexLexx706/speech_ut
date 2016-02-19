@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/img" >
+        <file>Resources/marking.png</file>
+        <file>Resources/marking_by_marking.png</file>
+        <file>Resources/settings.png</file>
+        <file>Resources/start.png</file>
+        <file>Resources/stop.png</file>
+    </qresource>
+</RCC>

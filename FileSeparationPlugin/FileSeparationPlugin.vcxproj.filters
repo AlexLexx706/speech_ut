@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FileSeparationPlugin">
+      <UniqueIdentifier>{f81c7b7a-71bb-4ff1-854a-02235482133a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+    </Filter>
+    <Filter Include="settingsdialog">
+      <UniqueIdentifier>{71f84907-d443-4376-a31e-2b8fa3f74f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="FileSeparationPlugin_testData">
+      <UniqueIdentifier>{c7600955-939b-4ab7-bdc6-423f5821ed71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileSeparationPlugin_testData\wav">
+      <UniqueIdentifier>{2bb79ce8-68cb-4ce3-8155-45acabcd76b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileSeparationPlugin_testData\marking">
+      <UniqueIdentifier>{c94bbca9-0101-4903-976c-3e1ad73418a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FileSeparation.cpp">
+      <Filter>FileSeparationPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_FileSeparation.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_FileSeparation.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_FileSeparation.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_settingsdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_settingsdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_settingsdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingsdialog\settingsdialog.cpp">
+      <Filter>settingsdialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileSeparation_global.h">
+      <Filter>FileSeparationPlugin</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="FileSeparation.h">
+      <Filter>FileSeparationPlugin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="settingsdialog\settingsdialog.h">
+      <Filter>settingsdialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="settingsdialog\settingsdialog.ui">
+      <Filter>settingsdialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileSeparationPlugin_testData\wav\1.wav">
+      <Filter>FileSeparationPlugin_testData\wav</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileSeparationPlugin_testData\marking\1.LAB">
+      <Filter>FileSeparationPlugin_testData\marking</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

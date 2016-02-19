@@ -1,0 +1,1 @@
+speech_utility.exe  /C /D .\test /O .\test\out\out.wav /DC 1 /XML 1

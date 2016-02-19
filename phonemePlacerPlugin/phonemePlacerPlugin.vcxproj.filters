@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="settingsdialog">
+      <UniqueIdentifier>{82749642-cc95-45c4-821e-19ff7e7d3cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestData">
+      <UniqueIdentifier>{b97fb26b-492b-483a-acdc-292023066720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model">
+      <UniqueIdentifier>{8525f1d8-4420-4e42-9851-bfb0676e520d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PhonemePlacerPlugin">
+      <UniqueIdentifier>{40827b0c-0271-401d-bb40-ba8510649812}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_phonemePlacerPlugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_phonemePlacerPlugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_settingsdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_settingsdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingsdialog\settingsdialog.cpp">
+      <Filter>settingsdialog</Filter>
+    </ClCompile>
+    <ClCompile Include="phonemePlacerPlugin.cpp">
+      <Filter>PhonemePlacerPlugin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_settingsdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="settingsdialog\settingsdialog.h">
+      <Filter>settingsdialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="settingsdialog\settingsdialog.ui">
+      <Filter>settingsdialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="testData\test.txt">
+      <Filter>TestData</Filter>
+    </CustomBuild>
+    <CustomBuild Include="testData\test.wav">
+      <Filter>TestData</Filter>
+    </CustomBuild>
+    <CustomBuild Include="model\hmmdefs_RU_PLP">
+      <Filter>model</Filter>
+    </CustomBuild>
+    <CustomBuild Include="phonemePlacerPlugin.h">
+      <Filter>PhonemePlacerPlugin</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

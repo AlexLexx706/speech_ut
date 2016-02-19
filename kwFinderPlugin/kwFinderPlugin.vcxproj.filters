@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_hmm0">
+      <UniqueIdentifier>{40327c64-c397-4f9f-81a3-11840cd5b20b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="SettingsDilaog">
+      <UniqueIdentifier>{2ffd07c9-5997-4996-b0e4-9576a354f85d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WavFiles">
+      <UniqueIdentifier>{f9fc5b3c-9066-44c9-ae77-8cc43df85caa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kwFinderPlugin">
+      <UniqueIdentifier>{a6959e49-c13e-40ce-816a-b66a85ebbcf2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\debug_dll\moc_kwfinderplugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_kwfinderplugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_kwfinderplugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_settingsdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_settingsdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\debug_dll\moc_settingsdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingsdialog\settingsdialog.cpp">
+      <Filter>SettingsDilaog</Filter>
+    </ClCompile>
+    <ClCompile Include="kwfinderplugin.cpp">
+      <Filter>kwFinderPlugin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_settingsdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="_hmm0\dictUsed.txt">
+      <Filter>_hmm0</Filter>
+    </CustomBuild>
+    <CustomBuild Include="_hmm0\hmmdefs">
+      <Filter>_hmm0</Filter>
+    </CustomBuild>
+    <CustomBuild Include="_hmm0\tiedls.txt">
+      <Filter>_hmm0</Filter>
+    </CustomBuild>
+    <CustomBuild Include="settingsdialog\settingsdialog.h">
+      <Filter>SettingsDilaog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="settingsdialog\settingsdialog.ui">
+      <Filter>SettingsDilaog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WavFiles\c0a825f127764858012776485a0d2a06_r.wav">
+      <Filter>WavFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WavFiles\c0a825f127764858012776485a0d2a60_l.wav">
+      <Filter>WavFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WavFiles\c0a825f127764858012776485a0d2a60_r.wav">
+      <Filter>WavFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kwfinderplugin.h">
+      <Filter>kwFinderPlugin</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

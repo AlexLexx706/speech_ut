@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="soundrecorder">
+      <UniqueIdentifier>{1c83a713-43e5-476b-9f9f-a781b12664db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="soundrecorder\soundrecorder.cpp">
+      <Filter>soundrecorder</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="soundrecorder\soundrecorder.h">
+      <Filter>soundrecorder</Filter>
+    </ClInclude>
+    <ClInclude Include="common_global.h" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,936 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{2fe2765c-5ba0-4082-9619-dc79740c4d7e}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{9d1cd15f-02c1-46c9-b5f4-8ad740113d8a}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug_dll">
+      <UniqueIdentifier>{fff3e817-131e-4575-9a93-4bf9efb92c07}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_dll">
+      <UniqueIdentifier>{f2b993b8-a3c8-4fbd-9899-bda3da560c68}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="waveviewerwidget">
+      <UniqueIdentifier>{e529841b-6b34-45e0-84c5-38ea0b0736d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="waveviewerwidget\frame">
+      <UniqueIdentifier>{09908c4c-d46d-4d21-964e-606f89596888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="waveviewerwidget\frame\dataframe">
+      <UniqueIdentifier>{937a260a-ea13-4a7a-8417-183bb4b870eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="waveviewerwidget\frame\dataframe\spectorframe">
+      <UniqueIdentifier>{1edba093-9a85-420c-8ad0-572f470af6e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="waveviewerwidget\frame\dataframe\spectorframe\fft">
+      <UniqueIdentifier>{10327531-156e-49b1-81a3-fc052261ad2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="waveviewerwidget\frame\dataframe\waveframe">
+      <UniqueIdentifier>{e85caa5b-7655-494f-a891-3ff099e97d23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="waveviewerwidget\frame\hrullerframe">
+      <UniqueIdentifier>{786f6028-c9c5-4d51-8bef-ada2f62ec9e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="waveviewerwidget\frame\vrullerframe">
+      <UniqueIdentifier>{c7fa3ba0-0469-43ba-a5cd-5d8f6a38cdeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="waveviewerwidget\buttonscontroller">
+      <UniqueIdentifier>{ee18c32b-d18e-489c-9ceb-fb14481243a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="waveviewerwidget\selectbutton">
+      <UniqueIdentifier>{92b62208-f066-4fe8-aa0c-67c9d7ba81e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="waveviewerwidget\scrollbutton">
+      <UniqueIdentifier>{9a32cad3-d7eb-42c6-82b9-e970e529729e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="searchdialog">
+      <UniqueIdentifier>{3659c21e-3fbb-4bd3-9872-4675d4927fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fileview">
+      <UniqueIdentifier>{dd05f04f-5116-4913-959c-e8f49652eac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fileviewcontroller">
+      <UniqueIdentifier>{0413c438-dbbb-4540-9ad8-d59d39f35a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="phrasecontroller">
+      <UniqueIdentifier>{66a85fad-c597-4a61-aced-497ddb5d7682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="phrasecontroller\phrase">
+      <UniqueIdentifier>{8a681c43-ecef-45a9-9399-27c97394d66b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="phrasecontroller\phrasebutton">
+      <UniqueIdentifier>{1653283d-6413-4d6b-accf-6340c3b582f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="phrasecontroller\phraseslist">
+      <UniqueIdentifier>{64c2acda-ea84-4474-bcf2-968539e5956c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="phrasecontroller\phraseslist\phraseslistdata">
+      <UniqueIdentifier>{aa70b7a9-8d90-466e-b724-dcb66d993866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="phrasecontroller\phraseslist\phraseslistdata\extlineedit">
+      <UniqueIdentifier>{93fae8cf-3da0-4afd-a29f-94fda0617d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="settingsdialog">
+      <UniqueIdentifier>{66ec2471-1abb-48b3-b1d2-e84fb5f54e08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gradientdialog">
+      <UniqueIdentifier>{b25e0bb4-8e69-4451-9e6e-76bd72ae507e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExTextEdit">
+      <UniqueIdentifier>{637288d1-5afb-45c9-99b6-c1e5259cd695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="phrasedeldiaog">
+      <UniqueIdentifier>{449a8872-ab45-4bf8-ad22-db2a27dc86f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RemovePhrasesByNameDialog">
+      <UniqueIdentifier>{ce4db832-b184-40f1-8c50-049165eb5536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlsFrame">
+      <UniqueIdentifier>{a340684d-57ac-446e-9f2c-23eeb8b07678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlsFrame\simplecontrolsframe">
+      <UniqueIdentifier>{4a5269e9-6793-4d70-a01e-f5d6deff1b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlsFrame\extcontrolsframe">
+      <UniqueIdentifier>{c6d84f48-88bc-4476-acc8-0f349657351f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="aboutdialog">
+      <UniqueIdentifier>{3526a387-f6fe-4f87-8910-ac6cb2fe95bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SignalDescFrame">
+      <UniqueIdentifier>{c190f434-e25e-426b-97de-a9d1c70ec70e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenedFilesDialog">
+      <UniqueIdentifier>{3b8d4292-b9cd-44eb-b1d7-a8f7611a376f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sox">
+      <UniqueIdentifier>{66531d2f-f0ed-4b52-8f09-cadebf1be515}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="generatedfiles\qrc_res.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_aboutdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_controlsframe.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_dataframe.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_extcontrolsframe.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_extextedit.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_extlineedit.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_fileview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_fileviewcontroller.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_frame.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_gradientdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_mainwindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release\moc_openedfilesdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_phrasecontroller.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_phrasedeldiaog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_phraseslist.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_phraseslistdata.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_removephrasesbynamedialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_searchdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_settingsdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_signaldescframe.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_simplecontrolsframe.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_spectorframe.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_waveviewerwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_aboutdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_controlsframe.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_dataframe.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_extcontrolsframe.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_extextedit.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_extlineedit.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_fileview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_fileviewcontroller.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_frame.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_gradientdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_mainwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Debug\moc_openedfilesdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_phrasecontroller.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_phrasedeldiaog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_phraseslist.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_phraseslistdata.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_removephrasesbynamedialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_searchdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_settingsdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_signaldescframe.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_simplecontrolsframe.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_spectorframe.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_waveviewerwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_aboutdialog.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_controlsframe.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_dataframe.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_extcontrolsframe.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_extextedit.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_extlineedit.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_fileview.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_fileviewcontroller.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_frame.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_gradientdialog.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_mainwindow.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Debug_dll\moc_openedfilesdialog.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_phrasecontroller.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_phrasedeldiaog.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_phraseslist.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_phraseslistdata.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_removephrasesbynamedialog.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_searchdialog.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_settingsdialog.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_signaldescframe.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_simplecontrolsframe.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_spectorframe.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_waveviewerwidget.cpp">
+      <Filter>Generated Files\Debug_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release_dll\moc_aboutdialog.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release_dll\moc_controlsframe.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release_dll\moc_dataframe.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release_dll\moc_extcontrolsframe.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release_dll\moc_extextedit.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release_dll\moc_extlineedit.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release_dll\moc_fileview.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release_dll\moc_fileviewcontroller.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release_dll\moc_frame.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release_dll\moc_gradientdialog.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release_dll\moc_mainwindow.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release_dll\moc_openedfilesdialog.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release_dll\moc_phrasecontroller.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release_dll\moc_phrasedeldiaog.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release_dll\moc_phraseslist.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release_dll\moc_phraseslistdata.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release_dll\moc_removephrasesbynamedialog.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release_dll\moc_searchdialog.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release_dll\moc_settingsdialog.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release_dll\moc_signaldescframe.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release_dll\moc_simplecontrolsframe.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release_dll\moc_spectorframe.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release_dll\moc_waveviewerwidget.cpp">
+      <Filter>Generated Files\Release_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="waveviewerwidget\waveviewerwidget.cpp">
+      <Filter>waveviewerwidget</Filter>
+    </ClCompile>
+    <ClCompile Include="waveviewerwidget\frame\frame.cpp">
+      <Filter>waveviewerwidget\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="waveviewerwidget\frame\dataframe\dataframe.cpp">
+      <Filter>waveviewerwidget\frame\dataframe</Filter>
+    </ClCompile>
+    <ClCompile Include="waveviewerwidget\frame\dataframe\spectorframe\spectorframe.cpp">
+      <Filter>waveviewerwidget\frame\dataframe\spectorframe</Filter>
+    </ClCompile>
+    <ClCompile Include="waveviewerwidget\frame\dataframe\spectorframe\fft\fft.cpp">
+      <Filter>waveviewerwidget\frame\dataframe\spectorframe\fft</Filter>
+    </ClCompile>
+    <ClCompile Include="waveviewerwidget\frame\dataframe\waveframe\waveframe.cpp">
+      <Filter>waveviewerwidget\frame\dataframe\waveframe</Filter>
+    </ClCompile>
+    <ClCompile Include="waveviewerwidget\frame\hrullerframe\hrullerframe.cpp">
+      <Filter>waveviewerwidget\frame\hrullerframe</Filter>
+    </ClCompile>
+    <ClCompile Include="waveviewerwidget\frame\vrullerframe\vrullerframe.cpp">
+      <Filter>waveviewerwidget\frame\vrullerframe</Filter>
+    </ClCompile>
+    <ClCompile Include="waveviewerwidget\buttonscontroller.cpp">
+      <Filter>waveviewerwidget\buttonscontroller</Filter>
+    </ClCompile>
+    <ClCompile Include="waveviewerwidget\selectbutton.cpp">
+      <Filter>waveviewerwidget\selectbutton</Filter>
+    </ClCompile>
+    <ClCompile Include="waveviewerwidget\scrollbutton.cpp">
+      <Filter>waveviewerwidget\scrollbutton</Filter>
+    </ClCompile>
+    <ClCompile Include="searchdialog\searchdialog.cpp">
+      <Filter>searchdialog</Filter>
+    </ClCompile>
+    <ClCompile Include="fileview\fileview.cpp">
+      <Filter>fileview</Filter>
+    </ClCompile>
+    <ClCompile Include="fileviewcontroller\fileviewcontroller.cpp">
+      <Filter>fileviewcontroller</Filter>
+    </ClCompile>
+    <ClCompile Include="phrasecontroller\phrasecontroller.cpp">
+      <Filter>phrasecontroller</Filter>
+    </ClCompile>
+    <ClCompile Include="phrasecontroller\phrase\phrase.cpp">
+      <Filter>phrasecontroller\phrase</Filter>
+    </ClCompile>
+    <ClCompile Include="phrasecontroller\phrasebutton\phrasebutton.cpp">
+      <Filter>phrasecontroller\phrasebutton</Filter>
+    </ClCompile>
+    <ClCompile Include="phrasecontroller\phraseslist\phraseslist.cpp">
+      <Filter>phrasecontroller\phraseslist</Filter>
+    </ClCompile>
+    <ClCompile Include="phrasecontroller\phraseslist\phraseslistdata\phraseslistdata.cpp">
+      <Filter>phrasecontroller\phraseslist\phraseslistdata</Filter>
+    </ClCompile>
+    <ClCompile Include="settingsdialog\settingsdialog.cpp">
+      <Filter>settingsdialog</Filter>
+    </ClCompile>
+    <ClCompile Include="gradientdialog\gradientdialog.cpp">
+      <Filter>gradientdialog</Filter>
+    </ClCompile>
+    <ClCompile Include="extextedit.cpp">
+      <Filter>ExTextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="phrasedeldiaog\phrasedeldiaog.cpp">
+      <Filter>phrasedeldiaog</Filter>
+    </ClCompile>
+    <ClCompile Include="removephrasesbynamedialog\removephrasesbynamedialog.cpp">
+      <Filter>RemovePhrasesByNameDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="controlsframe\controlsframe.cpp">
+      <Filter>ControlsFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="controlsframe\simplecontrolsframe\simplecontrolsframe.cpp">
+      <Filter>ControlsFrame\simplecontrolsframe</Filter>
+    </ClCompile>
+    <ClCompile Include="controlsframe\extcontrolsframe\extcontrolsframe.cpp">
+      <Filter>ControlsFrame\extcontrolsframe</Filter>
+    </ClCompile>
+    <ClCompile Include="aboutdialog\aboutdialog.cpp">
+      <Filter>aboutdialog</Filter>
+    </ClCompile>
+    <ClCompile Include="signaldescframe\signaldescframe.cpp">
+      <Filter>SignalDescFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenedFilesDialog\openedfilesdialog.cpp">
+      <Filter>OpenedFilesDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mainwindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="speech_utility_global.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generatedfiles\ui_aboutdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generatedfiles\ui_extcontrolsframe.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generatedfiles\ui_fileview.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generatedfiles\ui_fileviewcontroller.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generatedfiles\ui_gradientdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_mainwindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generatedfiles\ui_openedfilesdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generatedfiles\ui_phrasedeldiaog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generatedfiles\ui_phraseslist.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generatedfiles\ui_removephrasesbynamedialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generatedfiles\ui_searchdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generatedfiles\ui_settingsdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generatedfiles\ui_signaldescframe.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generatedfiles\ui_simplecontrolsframe.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="waveviewerwidget\frame\dataframe\spectorframe\fft\fft.h">
+      <Filter>waveviewerwidget\frame\dataframe\spectorframe\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="waveviewerwidget\frame\dataframe\waveframe\waveframe.h">
+      <Filter>waveviewerwidget\frame\dataframe\waveframe</Filter>
+    </ClInclude>
+    <ClInclude Include="waveviewerwidget\frame\hrullerframe\hrullerframe.h">
+      <Filter>waveviewerwidget\frame\hrullerframe</Filter>
+    </ClInclude>
+    <ClInclude Include="waveviewerwidget\frame\vrullerframe\vrullerframe.h">
+      <Filter>waveviewerwidget\frame\vrullerframe</Filter>
+    </ClInclude>
+    <ClInclude Include="waveviewerwidget\buttonscontroller.h">
+      <Filter>waveviewerwidget\buttonscontroller</Filter>
+    </ClInclude>
+    <ClInclude Include="waveviewerwidget\selectbutton.h">
+      <Filter>waveviewerwidget\selectbutton</Filter>
+    </ClInclude>
+    <ClInclude Include="waveviewerwidget\scrollbutton.h">
+      <Filter>waveviewerwidget\scrollbutton</Filter>
+    </ClInclude>
+    <ClInclude Include="phrasecontroller\phrase\phrase.h">
+      <Filter>phrasecontroller\phrase</Filter>
+    </ClInclude>
+    <ClInclude Include="phrasecontroller\phrasebutton\phrasebutton.h">
+      <Filter>phrasecontroller\phrasebutton</Filter>
+    </ClInclude>
+    <ClInclude Include="Version.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\arrow_down.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\arrow_left.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\arrow_right.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\arrow_up.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\briefcase.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\calendar.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\clock.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\Close-icon.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\close.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\comment.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\comment_2.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\contact.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\delete.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\document.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\document_2.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\edit-cut-icon.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\expand.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\Folder-Open-icon.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\folder.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\folder_2.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\folder_3.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\folder_4.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\folder_5.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\full_screen.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\heart.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\heart_2.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\heart_3.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\home.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\inbox.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\magnify.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\mail_1.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\mail_2.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\mail_3.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\mail_4.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\mail_5.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\mail_6.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\mail_7.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\mail_8.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\mail_9.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\pause-hover.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\pause-pressed.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\pause.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\pencil.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\play-hover.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\play-pressed.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\play.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\plus.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\remove-settings.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\remove.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\Save.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\Search.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\show_all.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\speech.bmp">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\speech.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\speech.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\star.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\stop-hover.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\stop-pressed.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\stop.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\tag.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\tick.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\tick_2.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\user_1.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\user_2.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\user_3.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\users.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\app_iconset_creative_nerds\32x32\warning.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\Zoom-In-icon_horizontal.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\Zoom-In-icon_vertical.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\Zoom-Out-icon_horizontal.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="img\Zoom-Out-icon_vertical.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="fileview\fileview.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="fileviewcontroller\fileviewcontroller.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gradientdialog\gradientdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="phrasedeldiaog\phrasedeldiaog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="removephrasesbynamedialog\removephrasesbynamedialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="searchdialog\searchdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="settingsdialog\settingsdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="waveviewerwidget\waveviewerwidget.h">
+      <Filter>waveviewerwidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="waveviewerwidget\frame\frame.h">
+      <Filter>waveviewerwidget\frame</Filter>
+    </CustomBuild>
+    <CustomBuild Include="waveviewerwidget\frame\dataframe\dataframe.h">
+      <Filter>waveviewerwidget\frame\dataframe</Filter>
+    </CustomBuild>
+    <CustomBuild Include="waveviewerwidget\frame\dataframe\spectorframe\spectorframe.h">
+      <Filter>waveviewerwidget\frame\dataframe\spectorframe</Filter>
+    </CustomBuild>
+    <CustomBuild Include="searchdialog\searchdialog.h">
+      <Filter>searchdialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="fileview\fileview.h">
+      <Filter>fileview</Filter>
+    </CustomBuild>
+    <CustomBuild Include="fileviewcontroller\fileviewcontroller.h">
+      <Filter>fileviewcontroller</Filter>
+    </CustomBuild>
+    <CustomBuild Include="phrasecontroller\phrasecontroller.h">
+      <Filter>phrasecontroller</Filter>
+    </CustomBuild>
+    <CustomBuild Include="phrasecontroller\phraseslist\phraseslist.h">
+      <Filter>phrasecontroller\phraseslist</Filter>
+    </CustomBuild>
+    <CustomBuild Include="phrasecontroller\phraseslist\phraseslist.ui">
+      <Filter>phrasecontroller\phraseslist</Filter>
+    </CustomBuild>
+    <CustomBuild Include="phrasecontroller\phraseslist\phraseslistdata\phraseslistdata.h">
+      <Filter>phrasecontroller\phraseslist\phraseslistdata</Filter>
+    </CustomBuild>
+    <CustomBuild Include="phrasecontroller\phraseslist\phraseslistdata\extlineedit\extlineedit.h">
+      <Filter>phrasecontroller\phraseslist\phraseslistdata\extlineedit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="settingsdialog\settingsdialog.h">
+      <Filter>settingsdialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gradientdialog\gradientdialog.h">
+      <Filter>gradientdialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="extextedit.h">
+      <Filter>ExTextEdit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="phrasedeldiaog\phrasedeldiaog.h">
+      <Filter>phrasedeldiaog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="removephrasesbynamedialog\removephrasesbynamedialog.h">
+      <Filter>RemovePhrasesByNameDialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controlsframe\controlsframe.h">
+      <Filter>ControlsFrame</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controlsframe\simplecontrolsframe\simplecontrolsframe.h">
+      <Filter>ControlsFrame\simplecontrolsframe</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controlsframe\simplecontrolsframe\simplecontrolsframe.ui">
+      <Filter>ControlsFrame\simplecontrolsframe</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controlsframe\extcontrolsframe\extcontrolsframe.h">
+      <Filter>ControlsFrame\extcontrolsframe</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controlsframe\extcontrolsframe\extcontrolsframe.ui">
+      <Filter>ControlsFrame\extcontrolsframe</Filter>
+    </CustomBuild>
+    <CustomBuild Include="aboutdialog\aboutdialog.h">
+      <Filter>aboutdialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="aboutdialog\aboutdialog.ui">
+      <Filter>aboutdialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="signaldescframe\signaldescframe.h">
+      <Filter>SignalDescFrame</Filter>
+    </CustomBuild>
+    <CustomBuild Include="signaldescframe\signaldescframe.ui">
+      <Filter>SignalDescFrame</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenedFilesDialog\openedfilesdialog.h">
+      <Filter>OpenedFilesDialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenedFilesDialog\openedfilesdialog.ui">
+      <Filter>OpenedFilesDialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sox\libgomp-1.dll">
+      <Filter>sox</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sox\pthreadgc2.dll">
+      <Filter>sox</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sox\sox.exe">
+      <Filter>sox</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sox\zlib1.dll">
+      <Filter>sox</Filter>
+    </CustomBuild>
+    <CustomBuild Include="test.bat" />
+    <CustomBuild Include="mainwindow.h" />
+    <CustomBuild Include="..\include\PluginCommon.h" />
+  </ItemGroup>
+</Project>

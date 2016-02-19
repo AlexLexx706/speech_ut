@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="_hmm0">
+      <UniqueIdentifier>{ac6d302c-d6b0-472e-8ba6-dd6ec3509dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="SettingsDilaog">
+      <UniqueIdentifier>{3f427bfe-81fe-4c10-bd28-c5d02c0775d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="keywordspottingplugin">
+      <UniqueIdentifier>{0525a8eb-fef4-48d3-b136-9295ff9482b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="generatedfiles\debug_dll\moc_keywordspottingplugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_keywordspottingplugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Debug\moc_keywordspottingplugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Debug\moc_settingsdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_settingsdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug_dll\moc_settingsdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingsdialog\settingsdialog.cpp">
+      <Filter>SettingsDilaog</Filter>
+    </ClCompile>
+    <ClCompile Include="keywordspottingplugin.cpp">
+      <Filter>keywordspottingplugin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="generatedfiles\ui_settingsdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="_hmm0\dictUsed.txt">
+      <Filter>_hmm0</Filter>
+    </CustomBuild>
+    <CustomBuild Include="_hmm0\hmmdefs">
+      <Filter>_hmm0</Filter>
+    </CustomBuild>
+    <CustomBuild Include="_hmm0\keywords.txt">
+      <Filter>_hmm0</Filter>
+    </CustomBuild>
+    <CustomBuild Include="_hmm0\tiedls.txt">
+      <Filter>_hmm0</Filter>
+    </CustomBuild>
+    <CustomBuild Include="settingsdialog\settingsdialog.h">
+      <Filter>SettingsDilaog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="settingsdialog\settingsdialog.ui">
+      <Filter>SettingsDilaog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="keywordspottingplugin.h">
+      <Filter>keywordspottingplugin</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+    </Filter>
+    <Filter Include="latticePlugin">
+      <UniqueIdentifier>{e4cc7fd1-1bd2-4deb-8ebc-5c6385a3861f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="settingsdialog">
+      <UniqueIdentifier>{c35c4b4b-c84f-4c3d-a3ca-68aae421792f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="programm">
+      <UniqueIdentifier>{0adaf94f-df53-49d3-8812-e29d7baf92a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_latticePlugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\debug_dll\moc_latticePlugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_latticePlugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\debug_dll\moc_settingsdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_settingsdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_settingsdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="latticePlugin.cpp">
+      <Filter>latticePlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="settingsdialog\settingsdialog.cpp">
+      <Filter>settingsdialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="generatedfiles\ui_settingsdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="latticePlugin.h">
+      <Filter>latticePlugin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="settingsdialog\settingsdialog.h">
+      <Filter>settingsdialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="settingsdialog\settingsdialog.ui">
+      <Filter>settingsdialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="programm\argvparser_qt.dll">
+      <Filter>programm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="programm\kw_vf_ph_tr.txt">
+      <Filter>programm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="programm\lattice.lat">
+      <Filter>programm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="programm\latticeSTD_qt.exe">
+      <Filter>programm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="programm\liblse_qt.dll">
+      <Filter>programm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="programm\zlib1.dll">
+      <Filter>programm</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

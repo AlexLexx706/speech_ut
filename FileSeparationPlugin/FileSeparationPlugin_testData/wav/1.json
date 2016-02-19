@@ -1,0 +1,19 @@
+{
+    "age_group" : "Adult",
+    "bad_quality_set" : true,
+    "children" : true,
+    "clipping" : true,
+    "echo" : true,
+    "gender" : "Male",
+    "harmonic_noise_set" : true,
+    "metro" : true,
+    "music" : true,
+    "native" : true,
+    "no_speech_set" : true,
+    "not_harmonic_noise_set" : true,
+    "people" : true,
+    "recorded_speech" : true,
+    "street" : true,
+    "tv" : true,
+    "unknown_lang_set" : true
+}
