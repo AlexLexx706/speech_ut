@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>539</width>
+    <width>484</width>
     <height>305</height>
    </rect>
   </property>
@@ -364,6 +364,13 @@
           <widget class="QCheckBox" name="checkBox_metro">
            <property name="text">
             <string>Метро</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="checkBox_animals">
+           <property name="text">
+            <string>Животные</string>
            </property>
           </widget>
          </item>
