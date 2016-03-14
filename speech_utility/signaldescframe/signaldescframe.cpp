@@ -35,6 +35,7 @@ SignalDescFrame::SignalDescFrame(QWidget *parent)
     connect(ui.checkBox_metro, SIGNAL(stateChanged(int)), this, SIGNAL(DataChanged()));
 	connect(ui.checkBox_animals, SIGNAL(stateChanged(int)), this, SIGNAL(DataChanged()));
 	connect(ui.checkBox_transport, SIGNAL(stateChanged(int)), this, SIGNAL(DataChanged()));
+	connect(ui.checkBox_cafe, SIGNAL(stateChanged(int)), this, SIGNAL(DataChanged()));
     //ui.radioButton_gender_child->hide();
 	ui.checkBox_metro->hide();
 
@@ -161,7 +162,7 @@ json_spirit::mValue SignalDescFrame::GetDescJS() const
 	obj["metro"] = ui.checkBox_metro->isChecked();
 	obj["animals"] = ui.checkBox_animals->isChecked();
 	obj["transport"] = ui.checkBox_transport->isChecked();
-
+	obj["cafe"] = ui.checkBox_cafe->isChecked();
 
 	return obj;
 }
@@ -194,6 +195,7 @@ bool SignalDescFrame::SetDescJS(json_spirit::mValue v)
 		ui.checkBox_metro->setChecked((iter = obj.find("metro"), iter != obj.end()) ? iter->second.get_bool() : false);
 		ui.checkBox_animals->setChecked((iter = obj.find("animals"), iter != obj.end()) ? iter->second.get_bool() : false);
 		ui.checkBox_transport->setChecked((iter = obj.find("transport"), iter != obj.end()) ? iter->second.get_bool() : false);
+		ui.checkBox_cafe->setChecked((iter = obj.find("transport"), iter != obj.end()) ? iter->second.get_bool() : false);
 
 		blockSignals(bsb);
 		return true;
@@ -243,6 +245,8 @@ void SignalDescFrame::SetDefaults()
 	ui.checkBox_echo->setChecked(false);
 	ui.checkBox_street->setChecked(false);
 	ui.checkBox_metro->setChecked(false);
+	ui.checkBox_animals->setChecked(false);
 	ui.checkBox_transport->setChecked(false);
+	ui.checkBox_cafe->setChecked(false);
 	blockSignals(bsb);
 }

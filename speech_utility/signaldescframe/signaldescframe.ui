@@ -381,6 +381,13 @@
            </property>
           </widget>
          </item>
+         <item>
+          <widget class="QCheckBox" name="checkBox_cafe">
+           <property name="text">
+            <string>Кафе</string>
+           </property>
+          </widget>
+         </item>
         </layout>
        </widget>
       </item>
